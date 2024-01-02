@@ -1,0 +1,5 @@
+-------bootstrap script in ec2 instance------ 
+#!/bin/bash 
+apt-get update
+apt-get install nginx -y
+echo "welcome ayush raj" > /var/www/html/index.html
